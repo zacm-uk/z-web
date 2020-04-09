@@ -14,7 +14,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "dependencies": {
-    "@zacm-uk/z-empire": "1.0.3",
+    "z-empire": "1.0.4",
     "open": "7.0.3",
     "st": "2.0.0"
   }
