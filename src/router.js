@@ -8,7 +8,7 @@ const st = require('st')
 
 process.env.EMPIRE_CONFIG = 'type=CLIENT storageDriver=memory nodeList=https://empire.zacm.uk hidden=true'
 
-const { node } = require('@zacm-uk/z-empire')
+const { node } = require('z-empire')
 
 const keyStorePath = process.env.KEY_STORE || join(homedir(), '.z-web-store')
 
